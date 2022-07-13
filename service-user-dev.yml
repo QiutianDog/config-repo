@@ -1,17 +1,10 @@
 spring:
-  application:
-    name: service-user
   datasource:
     driver-class-name: oracle.jdbc.driver.OracleDriver
-    url: jdbc:oracle:thin:@127.0.0.1:1521:orcl
+    url:jdbc: oracle:thin:@127.0.0.1:1521:orcl
     username: FLX
     password: root
-server:
-  port: 8010
-mybatis-plus:
-  type-aliases-package: com.example.serviceuser.entity
-mybatis:
-  mapper-locations:classpath: mapper/*Mapper.xml
+
 eureka:
   client:
     service-url:
