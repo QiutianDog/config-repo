@@ -4,3 +4,8 @@ spring:
     url:jdbc: oracle:thin:@127.0.0.1:1521:orcl
     username: FLX
     password: root
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8000/eureka
